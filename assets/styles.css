@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;600&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #620302;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #51100E;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.logo-afronte img {
+    height: 40px;
+}
+
+.botoes-navbar button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    font-family: "Rubik", sans-serif;
+}
+
+.botao-sobre {
+    background-color: #FFF; /* Cor de fundo para "Sobre o Acampa" */
+}
+
+.botao-quero {
+    background-color: #FFB800; /* Cor de fundo para "Quero Ir" */
+    color: #620302; /* Cor do texto para "Quero Ir" */
+}
+
+.botoes-navbar button:hover {
+    background-color: #3F5E30;
+    color: #FFB800;
+}
+
+
+.divisor {
+    background-image: url("../images/divisor.svg"); 
+    background-color: #620302;
+    background-size: 50%;
+    background-position: top center;
+    background-repeat: repeat-x;
+    height: 50px;
+    margin: 5px 0 0px 0;
+}
+
+header {
+    height: 380px; /* Define a altura fixa do header */
+    max-height: 380px; /* Remove a restrição de altura máxima */
+    text-align: center;
+    margin-top: calc(var(--navbar-height)); /* Ajusta dinamicamente a distância do header */
+    background-image: url("../images/bg-header.svg");
+    background-size: 70%;
+    background-color: #620302;
+  }
+  
+  
+:root {
+--navbar-height: 60px; /* Define a altura do navbar */
+}
+  
+.logo-acampa img {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.box-subtitulo {
+    background-color: #3F5E30;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.49);
+    font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  color: #FFF8D3;
+  font-family: "Rubik", sans-serif;
+}
+
+  
+.container-apresentacao {
+    background-color: #3F5E30;
+    max-width: 57%;
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex; /* Use display flex for container */
+    align-items: center; /* Align child elements vertically */
+    justify-content: space-between; /* Distribute space between elements */
+    width: 80%; /* Largura do container (ajuste conforme seu layout) */
+    margin: 0 auto; /* Centraliza o container na página */
+}
+  
+.logo-mote img {
+    max-width: 350px;
+}
+
+.texto-mote {
+    font-family: Arial, sans-serif; /* Define a fonte como Arial */
+    color: #FCF5EB; /* Define a cor como #FCF5EB */
+    text-align: justify; /* Justifica o texto */
+}
+
+.frentes {
+    background-color: #FFB800;
+}
+
+.frentes h1 {
+    padding-top: 10px;
+    color: #620302;
+    font-family: "Rubik", sans-serif;
+}
+
+.container-frentes {
+    display: grid; /* Define o container como um grid */
+    grid-template-columns: repeat(3, 1fr); /* Define 3 colunas com tamanho igual */
+    grid-gap: 20px; /* Espaçamento entre as colunas e linhas */
+    max-width: 900px; /* Largura máxima do container */
+    margin: 10px auto; /* Centraliza o container na página */
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.box-frente {
+    background-color: #FCF5EB;; /* Cor de fundo branca */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar o card */
+    text-align: center; /* Centraliza o texto dentro do card */
+}
+  
+.box-frente h1 {
+    font-size: 20px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaçamento entre o título e o texto */
+    font-weight: bold; /* Deixa o título mais negrito */
+    color: #620302;
+    font-family: "Rubik", sans-serif;
+}
+  
+.box-frente p {
+    font-size: 16px; /* Tamanho da fonte do texto explicativo */
+    line-height: 1.5; /* Espaçamento entre linhas do texto */
+    color: #3F5E30; /* Cor do texto */
+}
+  
+section.formulario {  
+    background: linear-gradient(0deg, rgba(98,3,2,1) 70%, rgba(255,184,0,1) 10%);
+}
+
+.container-forms {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #3F5E30;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #620302;
+}
+
+
+
+
+.sm-field__input {
+    width: 100%; /* Define a largura dos inputs como 100% */
+    padding: 10px; /* Adiciona espaçamento interno nos inputs */
+    border: 1px solid #FFB800; /* Borda cinza claro para os inputs */
+    border-radius: 4px; /* Arredonda os cantos dos inputs */
+    margin-bottom: 15px; /* Espaçamento entre os inputs */
+    font-size: 16px; /* Tamanho da fonte dos inputs */
+    color: #620302;
+  }
+  
+  /* Opcional: Estilo para o placeholder dos inputs */
+  .sm-field__input::placeholder {
+    color: #620302; /* Cor cinza claro para o texto placeholder */
+  }
+
+.titulo-forms {
+    color: #620302;
+    font-family: "Rubik", sans-serif;
+    padding: 10px 0;
+    
+}
+
+.sm-field__label {
+    color: #FFB800;
+}
+
+.pergunta {
+    color: #FFB800;
+    padding-bottom: 5px;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.sm-btn {
+    background-color: #FFB800; 
+    color: #620302; 
+    border: none;
+    border-radius: 10px;
+    width: 550px;
+    cursor: pointer;
+    padding: 9px 0;
+    margin-top: 10px;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
+
+.sm-actions__container {
+    display: flex;
+    align-items: center;
+}
+
+.resp-camp {
+    color: #FCF5EB;
+
+}
+
+footer {
+    padding: 30px 0;
+}
+
+footer img {
+    max-width: 100px;
+    display: block; /* Transforma a imagem em um bloco */
+    margin: 0 auto; /* Centraliza a imagem na horizontal */
+}
+
+footer h4 {
+    color: #FFF8D3;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+}
+
+/* Seu CSS original */
+
+/* Adicionando regras de mídia para diferentes tamanhos de tela */
+
+/* Tablets em modo paisagem e acima */
+@media only screen and (min-width: 768px) {
+    /* Suas regras de mídia existentes */
+  }
+  
+  /* Telas menores que tablets */
+  @media only screen and (max-width: 767px) {
+    .box-header {
+      display: flex; /* Use flexbox para alinhar os elementos */
+      flex-direction: column; /* Alinhe os elementos em uma coluna */
+      align-items: center; /* Centralize os elementos horizontalmente */
+    }
+
+    .container-apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-frentes {
+        display: grid; /* Define o container como um grid */
+        grid-template-columns: 1fr; /* Define 3 colunas com tamanho igual */
+    }
+
+    .box-header .logo-acampa,
+    .box-header .subtitulo {
+      margin-bottom: 20px; /* Adicione espaço entre os elementos */
+    }
+  
+    /* Adicione as regras para redimensionar as imagens conforme necessário */
+    .logo-acampa img {
+      max-width: 80%; /* Reduz ligeiramente a largura da imagem */
+      height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
+    }
+  
+    .logo-mote img {
+      max-width: 80%; /* Reduz ligeiramente a largura da imagem */
+      height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
+    }
+  
+    footer img {
+      max-width: 60px; /* Reduz ainda mais a largura da imagem no rodapé */
+      height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
+    }
+  }
+  
