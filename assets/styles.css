@@ -170,6 +170,7 @@ section.formulario {
     padding: 15px;
     margin-top: 10px;
     font-family: "Rubik", sans-serif;
+    font-size: larger;
     text-align: center;
 }
 
@@ -180,7 +181,7 @@ section.formulario {
 
 .resp-camp {
     color: #FCF5EB;
-    font-size: 25px;
+    font-size: large;
 }
 
 footer {
