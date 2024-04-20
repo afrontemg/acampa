@@ -135,11 +135,11 @@ section.formulario {
 
 .sm-field__input {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
     border: 1px solid #FFB800;
     border-radius: 4px;
-    margin-bottom: 15px;
-    font-size: 16px;
     color: #620302;
 }
 
@@ -151,6 +151,7 @@ section.formulario {
     color: #620302;
     font-family: "Rubik", sans-serif;
     padding: 10px 0;
+    font-size: 24px;
 }
 
 .sm-field__label {
@@ -161,6 +162,7 @@ section.formulario {
     color: #FFB800;
     padding-bottom: 5px;
     font-family: "Rubik", sans-serif;
+    font-size: 18px;
 }
 
 .sm-btn {
