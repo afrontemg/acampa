@@ -124,7 +124,6 @@ section.formulario {
 
 .container-forms {
     width: 100%;
-    box-sizing: border-box;
     margin: 0 auto;
     background-color: #3F5E30;
     border-radius: 10px;
@@ -135,9 +134,9 @@ section.formulario {
 
 .sm-field__input {
     width: 100%;
-    padding: 15px;
+    padding: 30px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 30px;
     border: 1px solid #FFB800;
     border-radius: 4px;
     color: #620302;
@@ -156,13 +155,9 @@ section.formulario {
 
 .sm-field__label {
     color: #FFB800;
-}
-
-.pergunta {
-    color: #FFB800;
     padding-bottom: 5px;
     font-family: "Rubik", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .sm-btn {
@@ -185,6 +180,7 @@ section.formulario {
 
 .resp-camp {
     color: #FCF5EB;
+    font-size: 18px;
 }
 
 footer {
